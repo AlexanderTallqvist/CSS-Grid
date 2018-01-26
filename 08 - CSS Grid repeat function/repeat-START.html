@@ -8,6 +8,14 @@
   <title>CSS Grid repeat Function!</title>
 </head>
 
+<style>
+  .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr 2fr);
+  }
+</style>
+
 <body>
   <div class="container">
     <div class="item">1</div>
@@ -27,12 +35,6 @@
     <div class="item">15</div>
   </div>
 
-  <style>
-    .container {
-      display: grid;
-      grid-gap: 20px;
-    }
-  </style>
 </body>
 
 </html>
